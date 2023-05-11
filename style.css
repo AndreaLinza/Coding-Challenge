@@ -1,0 +1,89 @@
+/*Colori usati
+    Verde:#00db33;
+    Arancio:#ffa500;
+    Rosso:#ff0000
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif; ;
+    background-image: url(background.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+#Logo{
+    width: 250px;
+    margin-top: 5%;
+}
+
+header{
+    padding: 5px;
+    color:#00db33;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+.container{
+    width: 1220px;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 15px;
+    margin: 0 18%;
+}
+
+nav{
+    text-align: center;
+    background-color: #00db33;
+    margin:0 10%;
+    padding: 10px;
+}
+
+main{
+    margin: 0 10%;
+    color: white;
+}
+
+section{
+    margin-top: 20px; 
+}
+
+section p::before{
+    content: "\21A6";
+}
+
+.Monopattini{
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.Rettangolo1 {
+    /*margin: 10px 0;*/
+    width: 350px;
+    height: 30px;
+    background: #ffa500;
+    border-radius: 5px;
+}
+.Rettangolo2 {
+    /*margin: 10px 0;*/
+    width: 550px;
+    height: 30px;
+    background: #00db33;
+    border-radius: 5px;
+}
+
+.Rettangolo3 {
+    /*margin: 20px 0;*/
+    width: 150px;
+    height: 30px;
+    background: red;
+    border-radius: 5px;
+}
+
+
+
